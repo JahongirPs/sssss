@@ -1,0 +1,24 @@
+.default-btn {
+  background-color: dodgerblue;
+  color: #fff;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.default-btn:hover {
+  background-color: #0a75df;
+}
+.default-btn:active {
+  transform: scale(1.02);
+}
+.default-btn svg {
+  margin-right: 10px;
+  font-size: 22px;
+  margin-top: -3px;
+}/*# sourceMappingURL=Utils.css.map */

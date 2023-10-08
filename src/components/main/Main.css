@@ -1,0 +1,11 @@
+.home__product-carousel {
+  max-width: 1986px;
+  margin: auto;
+  width: 100%;
+}
+
+.home__product-carousel > h2 {
+  margin-top: 40px;
+  font-size: 30px;
+  font-weight: 600;
+}/*# sourceMappingURL=Main.css.map */

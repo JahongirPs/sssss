@@ -1,0 +1,129 @@
+.Admin{
+    width: 100%;
+    max-height: 1500px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    }
+
+
+
+.Saidbar{
+    background-color:#4361ee;
+    border-radius: 15px;
+    height: 100%;
+    margin-left: 20px;
+    margin-top: 2.5vh;
+    padding: 0 15px;
+    width:286px;
+}
+
+
+
+.saidbars__img{
+    img{
+        width: 70%;
+        margin: 60px auto 60px 15%;
+    }
+}
+
+.saidbar__lang{
+    align-items: center;
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    height: 55px;
+    justify-content: space-evenly;
+    margin: auto auto 20px;
+    width: 70%;
+     .lang{
+        cursor: pointer;
+         img{
+            width: 47px;
+         }
+     }
+}
+
+
+.saidbar__account{
+        align-items: center;
+    background-color: #fff;
+    border-radius: 15px;
+    display: flex;
+    height: 70px;
+    margin-bottom: 30px;
+    padding: 0 10px;
+    width: 90%;
+
+     .accoutn__avatr {
+              align-items: center;
+    background: linear-gradient(180deg,#dfdfdf,rgba(4,4,4,.77));
+    border-radius: 50%;
+    color: #fff;
+    display: flex;
+    font-size: 32px;
+    height: 55px;
+    justify-content: center;
+    min-height: 55px;
+    min-width: 55px;
+    width: 55px;
+    margin-right: 10px;
+     }
+
+  .div{
+    h1{
+        font-size: 18px;
+    font-weight: 500;
+    margin-left: 10px;
+    text-transform: uppercase;
+    }
+
+    p{
+        color: #4361ee;
+    font-size: 15px;
+    margin-left: 10px;
+    }
+  }
+
+
+
+}
+
+
+ul{
+    button{
+        margin-bottom: 20px;
+        align-items: center;
+    background-color: #eb4c4c;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    display: flex;
+    font-size: 17px;
+    font-weight: 500;
+    height: 60px;
+    margin-top: 5px;
+    width: 100%;
+    font-size: 24px;
+    padding-left: 30px;
+    cursor: pointer;
+    }
+     li{
+        list-style-type: none;
+           a{
+            color: #fff;
+            width: 256px;
+            padding-left: 10px;
+            height: 68px;
+            text-decoration: none;
+            display: flex;
+             .Icon{
+                font-size: 27px;
+             }
+              p{
+                margin-left: 10px;
+                 font-size: 21px;
+              }
+           }
+     }
+}

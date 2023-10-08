@@ -1,0 +1,228 @@
+.End{
+    margin: auto;
+    max-width: 1519px;
+    width: 100%;
+    height: 770px;
+    background-color: #4361EE;
+}
+
+.End_block{   
+     align-items: center;
+    border-bottom: 1px solid grey;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+     .block_end{
+        align-items: center;
+        height: 170px;
+        margin-left: 10px;
+        justify-content: space-evenly;
+        width: 25%; 
+        margin-top: 50px;
+          b{
+            color: #fff;
+            font-size: 35px;
+          }
+          P{
+            color: #fff;
+            font-size: 17px;
+            line-height: 30px;
+            opacity: .7;
+            width: 100%;
+          }
+     }
+   
+}
+
+.EndBlock_text{
+    align-items: center;
+    display: flex;
+    height: auto;
+    justify-content: space-between;
+    max-width: 1519px;
+    width: 80%;
+    padding-left: 90px;
+      .EndText{
+        height: 400px;
+        padding: 50px 40px 50px 0;
+        width: 100%;
+         .logoText{
+            height: 100px;
+             width: 100%;
+               img{
+                height: 100px;
+                margin-top: -20px;
+                width: 150px;   
+               }
+         }
+         .textp{
+            color: #fff;
+            font-size: 17px;
+            line-height: 30px;
+            opacity: .7;
+            width: 364px;
+           }
+           .text2{
+            margin-top: 20px;
+             b{
+                color: #fff;
+                font-size: 35px;
+             }
+           }
+      }
+}
+.b{
+  color: #fff;
+  font-size: 35px;
+} 
+
+.EndText{
+  ul{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 200px;
+    width: 100%;
+      a{
+        color: #fff;
+        font-size: 17px;
+        line-height: 30px;
+        opacity: .7;
+        text-decoration: none;
+      }
+  }
+  .p{
+    
+    color: #fff;
+    font-size: 17px;
+    line-height: 30px;
+    opacity: .7;
+   margin-top: 40px;
+  }
+  .div{
+    background-color: #fff;
+    height: 2px;
+    margin: 5px 0 30px;
+    width: 100px;
+  }
+}
+
+
+
+@media screen and (min-width: '350px') and (max-width: '470px'){
+  .End{
+    margin: auto;
+    max-width: 1519px;
+    width: 100%;
+   max-height: 1770px;
+   height: 100%;
+    background-color: #4361EE;
+}
+
+.End_block{   
+     align-items: center;
+    border-bottom: 1px solid grey;
+    display: block;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+     .block_end{
+        align-items: center;
+        height: 100%;
+        justify-content: start;
+        width: 95%; 
+        padding: 20px;
+          b{
+            color: #fff;
+            font-size: 35px;
+          }
+          P{
+            color: #fff;
+            font-size: 17px;
+            line-height: 30px;
+            opacity: .7;
+            width: 100%;
+          }
+     }
+   
+}
+
+.EndBlock_text{
+    align-items: center;
+    display: block;
+    height: auto;
+    justify-content: space-between;
+    max-width: 1519px;
+    width: 90%;
+    padding-left: 20px;
+      .EndText{
+        height: 300px;
+        padding: 50px 40px 50px 0;
+        width: 100%;
+         .logoText{
+            height: 100px;
+             width: 100%;
+               img{
+                height: 100px;
+                margin-top: -20px;
+                width: 150px;   
+               }
+         }
+         .textp{
+            color: #fff;
+            font-size: 17px;
+            line-height: 30px;
+            opacity: .7;
+            width: 364px;
+           }
+           .text2{
+            margin-top: 20px;
+             b{
+                color: #fff;
+                font-size: 35px;
+             }
+           }
+      }
+}
+.b{
+  color: #fff;
+  font-size: 35px;
+} 
+
+.EndText{
+  ul{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 200px;
+    width: 100%;
+      a{
+        color: #fff;
+        font-size: 17px;
+        line-height: 30px;
+        opacity: .7;
+        text-decoration: none;
+      }
+  }
+  .p{
+    display: none;
+    color: #fff;
+    font-size: 17px;
+    line-height: 30px;
+    opacity: .7;
+   margin-top: 20px;
+  }
+  .div{
+    background-color: #fff;
+    height: 2px;
+    margin: 5px 0 30px;
+    width: 100px;
+  }
+}
+
+.Textb{
+  display: none;
+}
+ 
+}
